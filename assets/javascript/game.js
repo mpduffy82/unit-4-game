@@ -2,7 +2,7 @@
 var minNumber = 19; // le minimum
 var maxNumber = 120; // le maximum
 var targetNumber = Math.floor(Math.random() * (maxNumber + 1) + minNumber)
-
+var win = 0
 $("#number-to-guess").text(targetNumber);
 
 var counter = 0;
@@ -52,6 +52,8 @@ $(".crystal-image").on("click", function() {
 //   alert("New score: " + counter);
 
   if (counter === targetNumber) {
+      win++;
+    $("#wins").text(win)
     alert("You win!");
     $(":reset")
   }
