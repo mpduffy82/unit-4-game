@@ -9,7 +9,7 @@
     var num4= Math.floor(Math.random()*11+1)
     // Setting up random numbers for each jewel
     // Random number has to be between 1 - 12
-    // 
+
     var userTotal= 0; 
     var wins= 0;
     var losses = 0;
@@ -35,7 +35,7 @@
     $('#numberWins').text(wins);
     reset();
   }
-  //addes the losses to the userTotal
+  //adds the losses to the userTotal
   function loser(){
   alert ("You lose!");
     losses++;
