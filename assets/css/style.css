@@ -1,10 +1,17 @@
 
 .div
-{
+{font-family: 'Mountains of Christmas', cursive;
   text-align: middle;
 }
-    .crystal-image {
+    .gemImage {
       width: 300px;
-      height: 300px;
+      height: auto;
       padding: 20px;
     }
+
+
+.winsAndLosses{font-family: 'Mountains of Christmas', cursive;}
+.numberToMatch{font-family: 'Mountains of Christmas', cursive;}
+.userTotal{font-family: 'Mountains of Christmas', cursive;}
+.header{font-family: 'Mountains of Christmas', cursive;}
+        
