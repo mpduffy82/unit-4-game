@@ -1,6 +1,6 @@
 
 
-var targetNumber = 53;
+var targetNumber =  1 + Math.floor(Math.random() * 100);;
 
 $("#number-to-guess").text(targetNumber);
 
@@ -47,10 +47,12 @@ $(".crystal-image").on("click", function() {
   counter += crystalValue;
 
   // All of the same game win-lose logic applies. So the rest remains unchanged.
-  alert("New score: " + counter);
+  $("#current-number").text(counter);  
+//   alert("New score: " + counter);
 
   if (counter === targetNumber) {
     alert("You win!");
+    $(":reset")
   }
 
   else if (counter >= targetNumber) {
