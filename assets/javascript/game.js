@@ -1,6 +1,7 @@
 
-
-var targetNumber =  1 + Math.floor(Math.random() * 100);;
+var minNumber = 19; // le minimum
+var maxNumber = 120; // le maximum
+var targetNumber = Math.floor(Math.random() * (maxNumber + 1) + minNumber)
 
 $("#number-to-guess").text(targetNumber);
 
